@@ -26,6 +26,22 @@ a {
   color: deeppink;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 aside a {
   color: black;
+}
+
+aside a:link {
+  text-decoration: underline;
+}
+
+aside a:hover {
+  text-decoration: none;
 }
